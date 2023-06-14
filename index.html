@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Css -->
+  <link rel="stylesheet" href="./styles/main.css" />
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <title>Portfolio - Website</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-logo">
+       <a href="#"> <img src="./images/home-logo.svg" alt="home-logo.svg"></a>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#testimonals">Testimonials</a></li>
+          <li><a href="#foo">Contact Us</a></li>
+          <li><button>Download CV</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="home-top" id="home">
+        <div class="home-left">
+          <p>Hi i am</p>
+          <p class="name">Muhammad Bin Jameel</p>
+          <h1>
+            <pre>UI & UX
+          Designer</pre>
+          </h1>
+          <p class="home-text">Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam
+            venenatis nisi ante.
+            Aliquet
+            ornare tellus consectetur lacus</p>
+          <a href="#">Hire Me</a>
+        </div>
+        <div class="home-right">
+          <img src="./images/image-1.png" alt="image-1">
+          <div class="social-media">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="home-bottom" id="about">
+        <div class="home-bottom-left">
+          <img src="./images/image-2.png" alt="image">
+        </div>
+        <div class="home-bottom-right">
+          <h1>About Me</h1>
+          <p>Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam venenatis nisi
+            ante. Aliquet
+            ornare tellus consectetur lacus</p>
+          <div class="progress">
+            <h4>Ux</h4>
+            <div class="progress-item">
+              <span class="bar"></span>
+              <span class="circle"></span>
+            </div>
+            <h4>Website Design</h4>
+            <div class="progress-item">
+              <span class="bar bar2"></span>
+              <span class="circle circle2"></span>
+            </div>
+            <h4>App Design</h4>
+            <div class="progress-item">
+              <span class="bar bar3"></span>
+              <span class="circle circle3"></span>
+            </div>
+            <h4>Graphic Design</h4>
+            <div class="progress-item">
+              <span class="bar bar4"></span>
+              <span class="circle circle4"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="project-title">
+        <h1>Services</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit
+          felis ligula <br />
+          aliquam venenatis fghh hgjj nisi ante.
+        </p>
+      </div>
+      <div class="services-card">
+        <div class="services-card-1">
+          <img src="./images/icon.svg" alt="icon.svg">
+          <h1>UI/UX</h1>
+          <p>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh</p>
+        </div>
+        <div class="services-card-1">
+          <img src="./images/card-img-2.svg" alt="icon.svg">
+          <h1>Web Design </h1>
+          <p>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh</p>
+        </div>
+        <div class="services-card-1">
+          <img src="./images/card-img-3.svg" alt="icon.svg">
+          <h1>App Design</h1>
+          <p>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh</p>
+        </div>
+        <div class="services-card-1">
+          <img src="./images/card-img-4.svg" alt="icon.svg">
+          <h1>Graphic Design </h1>
+          <p>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project" id="project">
+    <div class="container">
+      <div class="project-title">
+        <h1>My Projects</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit
+          felis ligula <br />
+          aliquam venenatis fghh hgjj nisi ante.
+        </p>
+      </div>
+      <div class="project-tab-bar">
+        <ul>
+          <li><a href="#0" class="tablinks" id="defaultOpen" onclick="openTab(event, 'all')">All</a></li>
+          <li><a href="#0" class="tablinks" onclick="openTab(event, 'ui-ux')">UI UX</a></li>
+          <li><a href="#0" class="tablinks" onclick="openTab(event, 'website-design')">Website Design</a></li>
+          <li><a href="#0" class="tablinks" onclick="openTab(event, 'app-design')">App Design</a></li>
+          <li><a href="#0" class="tablinks" onclick="openTab(event, 'graphic-design')">Graphic Design</a></li>
+        </ul>
+      </div>
+      <div class="project-img tabcontent" id="all">
+        <img src="./images/project.png" alt="project.png" />
+        <img src="./images/project.png" alt="project.png" />
+        <img src="./images/project.png" alt="project.png" />
+      </div>
+      <div class="project-img tabcontent" id="ui-ux">
+        <img src="./images/project.png" alt="project.png" />
+        <img src="./images/project.png" alt="project.png" />
+        <img src="./images/project.png" alt="project.png" />
+      </div>
+      <div class="project-img tabcontent" id="website-design">
+        <img src="./images/project.png" alt="project.png" />
+        <img src="./images/project.png" alt="project.png" />
+        <img src="./images/project.png" alt="project.png" />
+      </div>
+      <div class="project-img tabcontent" id="app-design">
+        <img src="./images/project.png" alt="project.png" />
+        <img src="./images/project.png" alt="project.png" />
+        <img src="./images/project.png" alt="project.png" />
+      </div>
+      <div class="project-img tabcontent" id="graphic-design">
+        <img src="./images/project.png" alt="project.png" />
+        <img src="./images/project.png" alt="project.png" />
+        <img src="./images/project.png" alt="project.png" />
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonals">
+    <div class="project-title">
+      <h1>Testimonials</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit
+        felis ligula <br />
+        aliquam venenatis fghh hgjj nisi ante.
+      </p>
+    </div>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/testimonial-img2.svg" alt="img">
+          <div class="testimonials-right">
+            <p>
+              <img src="./images/testimonial-symbol.svg" alt="img" class="testimonial-symbol-1">
+              Lorem ipsum dolor sit amet consectetur. Id purus placerat scelerisque ullamcorper habitasse egestas.Nunc
+              gravida egestas
+              suspendisse volutpat suscipit suspendisse faucibus amet convallis.
+              <img src="./images/testimonial-symbol.svg" alt="img" class="testimonial-symbol-2">
+            </p>
+            <h4>Name</h4>
+            <h5>Ceo</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/testimonial-img.svg" alt="img">
+          <div class="testimonials-right">
+            <p>
+              <img src="./images/testimonial-symbol.svg" alt="img" class="testimonial-symbol-1">
+              Lorem ipsum dolor sit amet consectetur. Id purus placerat scelerisque ullamcorper habitasse egestas.Nunc
+              gravida egestas
+              suspendisse volutpat suscipit suspendisse faucibus amet convallis.
+              <img src="./images/testimonial-symbol.svg" alt="img" class="testimonial-symbol-2">
+            </p>
+            <h4>Name</h4>
+            <h5>Ceo</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/testimonial-img2.svg" alt="img">
+          <div class="testimonials-right">
+            <p>
+              <img src="./images/testimonial-symbol.svg" alt="img" class="testimonial-symbol-1">
+              Lorem ipsum dolor sit amet consectetur. Id purus placerat scelerisque ullamcorper habitasse egestas.Nunc
+              gravida egestas
+              suspendisse volutpat suscipit suspendisse faucibus amet convallis.
+              <img src="./images/testimonial-symbol.svg" alt="img" class="testimonial-symbol-2">
+            </p>
+            <h4>Name</h4>
+            <h5>Ceo</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/testimonial-img.svg" alt="img">
+          <div class="testimonials-right">
+            <p>
+              <img src="./images/testimonial-symbol.svg" alt="img" class="testimonial-symbol-1">
+              Lorem ipsum dolor sit amet consectetur. Id purus placerat scelerisque ullamcorper habitasse egestas.Nunc
+              gravida egestas
+              suspendisse volutpat suscipit suspendisse faucibus amet convallis.
+              <img src="./images/testimonial-symbol.svg" alt="img" class="testimonial-symbol-2">
+            </p>
+            <h4>Name</h4>
+            <h5>Ceo</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+
+  </section>
+
+  <section class="desigin" id="desigin>
+    <div class="container">
+      <div class="project-title">
+        <h1>Lets Design Together</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit
+          felis ligula <br />
+          aliquam venenatis fghh hgjj nisi ante.
+        </p>
+      </div>
+      <form action="#0">
+        <input type="email" placeholder="Enter your email" class="input-email" />
+        <input type="submit" value="Contact Me" class="input-contact" />
+      </form>
+    </div>
+  </section>
+
+  <section class="footer" id="foo">
+    <div class="container">
+      <div class="footer-logo">
+        <a href="#"><img src="./images/home-logo.svg" alt="home-logo.svg" /></a>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#testimonals">Testimonials</a></li>
+          <li><a href="#foo">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-network">
+        <a href="#"><img src="./images/neetwork-facebook.svg" alt="neetwork-facebook.svg" /></a>
+        <a href="#"><img src="./images/neetwork-twitter.svg" alt="twitter.svg" /></a>
+        <a href="#"><img src="./images/Instagram - Negative.svg" alt="Instagram - Negative.svg" /></a>
+        <a href="#"><img src="./images/LinkedIn - Negative.svg" alt="LinkedIn - Negative.svg" /></a>
+      </div>
+      <div class="footer-bottom">
+        <h1>© 2023 <span>Muhammad</span> All Rights Reserved , Inc.</h1>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+  <script>
+    function openTab(event, tabName) {
+      let i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tabName).style.display = "flex";
+      event.currentTarget.className += " active";
+    }
+
+    document.getElementById("defaultOpen").click();
+
+
+    let swiper = new Swiper(".mySwiper", {
+      slidesPerView: "auto",
+      spaceBetween: 62,
+      centeredSlides: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
